@@ -1,0 +1,3 @@
+import React from 'react'
+import { LogOut } from 'lucide-react'
+export default function Header({ onLogout }) { return (<header className="flex items-center justify-between mb-6"><div className="flex items-center gap-3"><div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center text-slate-900 font-bold">CF</div><div><h1 className="text-2xl font-bold">Cassino Sandbox</h1><div className="text-sm text-white/70">Demo — sem dinheiro real</div></div></div><div><button onClick={onLogout} className="small-btn"><LogOut size={16}/> Sair</button></div></header>)}
